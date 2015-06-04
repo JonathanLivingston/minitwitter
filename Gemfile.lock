@@ -184,6 +184,7 @@ DEPENDENCIES
   coffee-script-source (= 1.8.0)
   jbuilder (~> 2.0)
   jquery-rails
+  minitest
   pg
   rails (= 4.2.1)
   rails_12factor (= 0.0.2)

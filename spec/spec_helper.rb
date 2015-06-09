@@ -53,6 +53,8 @@ Spork.prefork do
     config.include Capybara::DSL
 
     config.include Rails.application.routes.url_helpers
+
+    config.infer_spec_type_from_file_location!
   end
 end
 
